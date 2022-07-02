@@ -20,9 +20,9 @@ $ npm run start
 ## Sample API Test
 
 - login
-</br>
+
 `[POST] localhost:8000/api/user/login`
-</br>
+
 request body :
 ```
   {
@@ -32,11 +32,11 @@ request body :
 ```
 
 - district by id
-</br>
+
 `[POST] localhost:8000/api/kecamatan/id`
-</br>
+
 request hearder [authorization] : `bearer ${token}`
-</br>
+
 request body :
 ```
   {
@@ -45,11 +45,11 @@ request body :
 ```
 
 - district by kota_id
-</br>
-`[POST] localhost:8000/api/kecamatan/id`
-</br>
+
+`[POST] localhost:8000/api/kecamatan/kota`
+
 request hearder [authorization] : `bearer ${token}`
-</br>
+
 request body :
 ```
   {
